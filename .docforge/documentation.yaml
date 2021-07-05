@@ -1,14 +1,4 @@
 structure:
-- source: https://github.com/gardener/documentation/blob/master/website/documentation/_index.md
-- name: home
-  nodes:
-  - source: https://github.com/gardener/documentation/blob/master/website/documentation/home/_index.md
-    properties:
-      frontmatter:
-        title: Home
-        layout: home
-        menu: sln
-        weight: 1
 - name: concepts
   properties:
     frontmatter:
