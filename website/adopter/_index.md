@@ -2,7 +2,7 @@
 title: Adopters
 url: /adopter
 ---
-
+KRIS2
 <div class="adopters">
   <div class="container">
     <div class="title-group">
