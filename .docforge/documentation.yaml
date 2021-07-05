@@ -6,7 +6,6 @@ structure:
     properties:
       frontmatter:
         title: Home
-        type: docs
         layout: home
         menu: sln
         weight: 1
@@ -15,7 +14,6 @@ structure:
     frontmatter:
       title: Concepts
       description: Explore the concepts on which Gardener is built
-      type: docs
       menu: sln
       sidebar: true
       weight: 20
@@ -29,13 +27,11 @@ structure:
 #       url: /about/
 #       remote: https://github.com/gardener/gardener/blob/master/README.md
 #       icon: navigation_started.svg
-#       type: padding
 - name: guides
   properties:
     frontmatter:
       title: How-To Guides
       description: Learn how to execute concrete tasks
-      type: docs
       layout: guides-home
       menu: sln
       sidebar: true
@@ -49,7 +45,6 @@ structure:
     frontmatter:
       title: Tutorials
       description: Walkthroughs of common use case implementations and goals that require a set of tasks to accomplish
-      type: docs
       layout: tutorials-home
       menu: sln
       sidebar: true
@@ -63,7 +58,6 @@ structure:
     frontmatter:
       title: API Reference
       description: Reference documentation for the Gardener API
-      type: docs
       menu: sln
       sidebar: true
       weight: 60
@@ -75,7 +69,6 @@ structure:
     frontmatter:
       title: Contribute
       description: Contributors guides for code and documentation
-      type: docs
       sidebar: true
       menu: sln
       weight: 100

@@ -7,7 +7,6 @@ structure:
       frontmatter:
         title: Core
         remote: https://github.com/gardener/gardener/blob/master/hack/api-reference/core.md
-        type: docs
         aliases: ["/api-reference/core"]
 - name: extensions
   nodes:
@@ -17,7 +16,6 @@ structure:
       frontmatter:
         title: Extensions
         remote: https://github.com/gardener/gardener/blob/master/hack/api-reference/extensions.md
-        type: docs
         aliases: ["/api-reference/extensions"]
 - name: settings
   nodes:
@@ -27,7 +25,6 @@ structure:
       frontmatter:
         title: Settings
         remote: https://github.com/gardener/gardener/blob/master/hack/api-reference/settings.md
-        type: docs
         aliases: ["/api-reference/settings"]
 links:
   downloads:

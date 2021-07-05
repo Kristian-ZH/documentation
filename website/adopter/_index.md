@@ -1,7 +1,6 @@
 ---
 title: Adopters
 url: /adopter
-type: landingpage
 ---
 
 <div class="adopters">
