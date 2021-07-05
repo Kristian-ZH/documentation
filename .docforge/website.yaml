@@ -24,7 +24,7 @@ structure:
 {{- $vers := Split .versions "," -}}
 {{- range $i, $version := $vers -}}
 {{- if eq $i 0  }}
-- name: documentation
+- name: docs
 {{- else }}
 - name: {{$version}}
 {{- end }}
