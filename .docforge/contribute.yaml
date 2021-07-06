@@ -1,20 +1,20 @@
 nodesSelector:
-  path: https://github.com/gardener/documentation/tree/master/website/documentation/contribute
+  path: https://github.com/Kristian-ZH/documentation/tree/docsy-kris/website/documentation/contribute
 # structure:
 #   - name: 10_code
 #     nodes:
 #     - name: 10-contribution_guide
-#       source: https://github.com/gardener/documentation/blob/master/CONTRIBUTING.md
+#       source: https://github.com/Kristian-ZH/documentation/blob/master/CONTRIBUTING.md
 #       properties:
 #         frontmatter:
 #           title: Contribution Guide
-#           remote: https://github.com/gardener/documentation/blob/master/CONTRIBUTING.md
+#           remote: https://github.com/Kristian-ZH/documentation/blob/master/CONTRIBUTING.md
 #     - name: 12-security_guide
-#       source: https://github.com/gardener/documentation/blob/master/security-release-process.md      
+#       source: https://github.com/Kristian-ZH/documentation/blob/master/security-release-process.md      
 #       properties:
 #         frontmatter:
 #           title: Security Release Process
-#           remote: https://github.com/gardener/documentation/blob/master/security-release-process.md
+#           remote: https://github.com/Kristian-ZH/documentation/blob/master/security-release-process.md
 #     - source: https://github.com/gardener/gardener/blob/master/docs/development/local_setup.md
 #       properties:
 #         frontmatter:
@@ -46,4 +46,4 @@ nodesSelector:
 links:
   downloads:
     scope:
-      "gardener/documentation/(blob|raw)/(.*)/website": ~
+      "Kristian-ZH/documentation/(blob|raw)/(.*)/website": ~

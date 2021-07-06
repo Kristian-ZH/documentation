@@ -1,9 +1,9 @@
 structure:
   - name: architecture
     nodes:
-    - source: https://github.com/gardener/gardener/blob/master/docs/concepts/architecture.md
+    - name: _index.md
+      source: https://github.com/gardener/gardener/blob/master/docs/concepts/architecture.md
       properties:
-        index: true
         frontmatter:
           title: Architecture
           remote: https://github.com/gardener/gardener/blob/master/docs/concepts/architecture.md
@@ -60,9 +60,9 @@ structure:
     nodes:
     - name: api-server
       nodes:
-      - source: https://github.com/gardener/gardener/blob/master/docs/concepts/apiserver.md
+      - name: _index.md
+        source: https://github.com/gardener/gardener/blob/master/docs/concepts/apiserver.md
         properties:
-          index: true
           frontmatter:
             title: Gardener API Server
             remote: https://github.com/gardener/gardener/blob/master/docs/concepts/apiserver.md
@@ -129,9 +129,9 @@ structure:
           remote: https://github.com/gardener/gardener/blob/master/docs/deployment/image_vector.md
   - name: extensions
     nodes:
-    - source:  https://github.com/gardener/gardener/blob/master/docs/extensions/overview.md
+    - name: _index.md
+      source:  https://github.com/gardener/gardener/blob/master/docs/extensions/overview.md
       properties:
-        index: true
         frontmatter:
           title: Extensions
           remote: https://github.com/gardener/gardener/blob/master/docs/extensions/overview.md

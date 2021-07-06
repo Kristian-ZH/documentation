@@ -1,5 +1,5 @@
 nodesSelector:
-  path: https://github.com/gardener/documentation/tree/master/website/documentation/tutorials
+  path: https://github.com/Kristian-ZH/documentation/tree/master/website/documentation/tutorials
 structure:
 - name: kube-featureflag
   source: https://github.com/gardener-samples/kube-featureflag/blob/master/README.md
@@ -39,4 +39,4 @@ structure:
 links:
   downloads:
     scope:
-      "gardener/documentation/(blob|raw)/(.*)/website": ~
+      "Kristian-ZH/documentation/(blob|raw)/(.*)/website": ~

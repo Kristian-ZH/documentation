@@ -1,5 +1,5 @@
 nodesSelector:
-  path: https://github.com/gardener/documentation/tree/master/website/documentation/guides
+  path: https://github.com/Kristian-ZH/documentation/tree/docsy-kris/website/documentation/guides
 structure:
 - name: administer_shoots
   nodes:
@@ -86,4 +86,4 @@ links:
   downloads:
     scope:
       "gardener/(gardener-extension-shoot-cert-service|gardener-extension-shoot-dns-service|landscape-setup|gardener)/(blob|raw)/(.*)/docs": ~
-      "gardener/documentation/(blob|raw)/(.*)/website": ~
+      "Kristian-ZH/documentation/(blob|raw)/(.*)/website": ~
