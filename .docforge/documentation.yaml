@@ -8,7 +8,7 @@ structure:
       sidebar: true
       weight: 20
   nodesSelector:
-    path: https://github.com/gardener/documentation/blob/master/.docforge/concepts.yaml
+    path: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/.docforge/concepts.yaml
 # - name: getting-started
 #   source: https://github.com/gardener/gardener/blob/master/README.md
 #   properties:
@@ -27,7 +27,7 @@ structure:
       sidebar: true
       weight: 30
   nodesSelector:
-    path: https://github.com/gardener/documentation/blob/master/.docforge/guides.yaml
+    path: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/.docforge/guides.yaml
 - name: tutorials
   properties:
     frontmatter:
@@ -38,7 +38,7 @@ structure:
       sidebar: true
       weight: 40    
   nodesSelector:
-    path: https://github.com/gardener/documentation/blob/master/.docforge/tutorials.yaml
+    path: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/.docforge/tutorials.yaml
 - name: references
   properties:
     frontmatter:
@@ -49,7 +49,7 @@ structure:
       weight: 60
       aliases: ["/api-reference/"]
   nodesSelector:
-    path: https://github.com/gardener/documentation/blob/master/.docforge/references.yaml
+    path: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/.docforge/references.yaml
 - name: contribute
   properties:
     frontmatter:
@@ -59,8 +59,8 @@ structure:
       menu: sln
       weight: 100
   nodesSelector:
-    path: https://github.com/gardener/documentation/blob/master/.docforge/contribute.yaml    
+    path: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/.docforge/contribute.yaml    
 links:
   downloads:
     scope:
-      "gardener/gardener/(blob|raw)/(.*)/docs": ~
+      "dimitar-kostadinov/gardener/(blob|raw)/(.*)/docs": ~

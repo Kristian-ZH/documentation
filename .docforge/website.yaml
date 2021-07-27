@@ -1,7 +1,7 @@
 structure:
 - name: blog
   nodesSelector:
-    path: https://github.com/gardener/documentation/tree/master/website/blog
+    path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/blog
   properties:
     index: true
     frontmatter:
@@ -10,14 +10,14 @@ structure:
       aggregate: true
 - name: adopter
   nodes:
-  - source: https://github.com/gardener/documentation/blob/master/website/adopter/_index.md
+  - source: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/website/adopter/_index.md
     properties:
       frontmatter:
         title: Adopters
         url: /adopter
 - name: community
   nodes:
-  - source: https://github.com/gardener/documentation/blob/master/website/community/_index.md
+  - source: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/website/community/_index.md
     properties:
       title: Community
       url: /community
@@ -29,15 +29,15 @@ structure:
 - name: {{$version}}
 {{- end }}
   nodesSelector:
-    path: https://github.com/gardener/documentation/blob/{{$version}}/.docforge/documentation.yaml
+    path: https://github.com/dimitar-kostadinov/documentation/blob/remove_duplicates/.docforge/documentation.yaml
   links:
     rewrites:
-      gardener/documentation/(tree|blob|raw):
+      dimitar-kostadinov/documentation/(tree|blob|raw):
         version: {{$version}}
-      gardener/gardener/(tree|blob|raw):
+      dimitar-kostadinov/gardener/(tree|blob|raw):
         version: {{$version}}
 {{- end }}
 links:
   downloads:
     scope:
-      gardener/documentation/(blob|raw)/(.*)/website: ~
+      dimitar-kostadinov/documentation/(blob|raw)/(.*)/website: ~

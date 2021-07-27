@@ -39,7 +39,7 @@ structure:
         scope: app-developer
         aliases: ["/050-tutorials/content/howto/x509_certificates"]
   nodesSelector:
-    path: https://github.com/gardener/documentation/tree/master/website/documentation/guides/administer_shoots
+    path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/documentation/guides/administer_shoots
 - name: applications
   nodes:
   - name: https
@@ -53,13 +53,13 @@ structure:
         scope: app-developer
         aliases: ["/readmore/https", "/050-tutorials/content/app/https"]
   nodesSelector:
-    path: https://github.com/gardener/documentation/tree/master/website/documentation/guides/applications
+    path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/documentation/guides/applications
 - name: client_tools
   nodesSelector:
-    path: https://github.com/gardener/documentation/tree/master/website/documentation/guides/client_tools
+    path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/documentation/guides/client_tools
 - name: gardener-cookies
   nodesSelector:
-    path: https://github.com/gardener/documentation/tree/master/website/documentation/guides/gardener-cookies
+    path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/documentation/guides/gardener-cookies
 - name: install_gardener
   nodes:
   - source: https://github.com/gardener/gardener-extension-shoot-cert-service/blob/master/docs/installation/setup.md
@@ -83,7 +83,7 @@ structure:
         scope: operator
         aliases: ["/050-tutorials/content/howto/gardener_dns_management"]
   nodesSelector:
-    path: https://github.com/gardener/documentation/tree/master/website/documentation/guides/install_gardener
+    path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/documentation/guides/install_gardener
 - name: landscape-setup
   source: https://github.com/gardener/landscape-setup/blob/master/README.md
   properties:
@@ -96,9 +96,9 @@ structure:
       aliases: ["/050-tutorials/content/howto/landscape-setup"]
 - name: monitoring_and_troubleshooting
   nodesSelector:
-    path: https://github.com/gardener/documentation/tree/master/website/documentation/guides/monitoring_and_troubleshooting
+    path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/documentation/guides/monitoring_and_troubleshooting
 links:
   downloads:
     scope:
       "gardener/(gardener-extension-shoot-cert-service|gardener-extension-shoot-dns-service|landscape-setup|gardener)/(blob|raw)/(.*)/docs": ~
-      "gardener/documentation/(blob|raw)/(.*)/website": ~
+      "dimitar-kostadinov/documentation/(blob|raw)/(.*)/website": ~

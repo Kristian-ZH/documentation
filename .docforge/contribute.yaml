@@ -1,5 +1,5 @@
 nodesSelector:
-  path: https://github.com/gardener/documentation/tree/master/website/documentation/contribute
+  path: https://github.com/dimitar-kostadinov/documentation/tree/remove_duplicates/website/documentation/contribute
 # structure:
 #   - name: 10_code
 #     nodes:
@@ -46,4 +46,4 @@ nodesSelector:
 links:
   downloads:
     scope:
-      "gardener/documentation/(blob|raw)/(.*)/website": ~
+      "dimitar-kostadinov/documentation/(blob|raw)/(.*)/website": ~
