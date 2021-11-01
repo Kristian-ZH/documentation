@@ -3,7 +3,7 @@ structure:
   properties:
     frontmatter:
       title: Gardener
-      description: Documentation for Gardener
+      description: For more details check <a href="https://github.com/gardener/gardener/releases/tag/v1.34.0">release v1.34.0</a>
       weight: 1
       index: true
   nodesSelector:
