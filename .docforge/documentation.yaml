@@ -7,7 +7,7 @@ structure:
       weight: 1
       index: true
   nodesSelector:
-    path: https://github.com/gardener/gardener/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
+    path: https://github.com/Kristian-ZH/gardener/blob/check-alias/.docforge/manifest.yaml
 - name: dashboard
   properties:
     frontmatter:
