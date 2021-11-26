@@ -34,6 +34,7 @@ structure:
   nodesSelector:
     path: https://github.com/gardener/gardenctl/blob/DEFAULT_BRANCH/.docforge/manifest.yaml
 - name: other-components
+  source: https://github.com/gardener/documentation/blob/master/website/community/_index.md
   properties:
     frontmatter:
       title: Other Components
